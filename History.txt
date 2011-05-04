@@ -1,0 +1,56 @@
+== 0.0.12 2009-04-17
+
+  1 minor enhancements: 
+  
+  * modify README, History.txt content.
+
+== 0.0.11 2009-04-16
+
+  1 minor enhancements: 
+  
+  * add ActionView::Base helper method for js,css file inclusion.
+
+== 0.0.9 2009-04-15
+
+  1 major enhancements: 
+
+  * add jquery js and css file, so remove dependency of Jquery
+
+== 0.0.8 2009-04-15
+
+  1 bug fixes: 
+
+  * clean unused folders and add rspec for class method.
+    
+== 0.0.7 2009-04-15
+
+  1 bug fixes: 
+
+  * fix the gem as a rails plugin.
+  * install autopage plugin:  ruby script/plugin install git://rubyforge.org:autopage.git
+
+== 0.0.5 2009-04-15
+
+  2 minor enhancements:
+
+  * add 'rake mani' task to replace 'rake manifest' does not work on windows
+  * add 'install.rb' to auto copy jquery.idTabs.min.js file into rails plugin if install gems as a plugin
+
+== 0.0.4 2009-04-15
+
+  1 bug fixes: 
+  
+  * fix manifest bug which cause gem without content
+  * replace 'rake gem' with [ find . -type f | egrep -v "(.git\/|nbproject\/|pkg\/|script\/|\.gitignore$|\.gem$)" | sed 's/\.\///g' > Manifest.txt ]
+
+== 0.0.2 2009-04-14
+
+  1  bug fixes: 
+  
+  * fix spec bug include init.rb to make this gem suitable for rails plugin
+
+== 0.0.1 2009-04-13
+
+  1 major enhancement:
+  
+  * Initial release

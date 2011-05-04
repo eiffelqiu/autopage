@@ -1,0 +1,16 @@
+tasks/rspec.rake
+tasks/manifest.rake
+spec/spec.opts
+spec/spec_helper.rb
+spec/autopage_spec.rb
+lib/autopage.rb
+Manifest.txt
+templates/css/jquery-ui-tab.css
+templates/js/jquery.min.js
+templates/js/jquery-ui.min.js
+init.rb
+Rakefile
+install.rb
+README.rdoc
+TODO
+History.txt
