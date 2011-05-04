@@ -1,7 +1,7 @@
 = auto_page
 
 * http://autopage.rubyforge.org
-* http://github.com/eiffelqiu/autopage/
+* http://github.com/eiffelqiu/autopage
 
 == DESCRIPTION:
 
